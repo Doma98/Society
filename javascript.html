@@ -1,0 +1,37 @@
+<html>
+	<head>
+		<title> Choose your avatar! </title>
+			<style>
+			img {
+			height: 200px;
+			width: 200px;
+			}
+			</style>
+	</head>
+	<body>
+		<h1> CHOOSE YOUR AVATAR </h1>
+		<div>
+			1)<img src="squirtle.img.png">
+			2)<img src="bulbasaur.img.png">
+			3)<img src="charmander.img.png">
+		</div>
+		<br />
+		<H3 id="out"></H3>
+		<script>
+		var number = prompt("Which one best fits you? 1, 2, or 3?");
+		if (number == "1")
+		{
+			document.write("You chose Squirtle! ");
+		}
+		if (number =="2")
+		{
+			document.write("You chose Bulbasaur!");
+		}
+		if (number =="3")
+		{
+			document.write("You chose Charmander!");
+		}
+		// document.getElementByID("out").innerHTML(" put your text here");
+		</script>
+	</body>
+</html>
