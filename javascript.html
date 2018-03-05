@@ -11,10 +11,13 @@
 	<body>
 		<h1> CHOOSE YOUR AVATAR </h1>
 		<div>
-			1)<img src="squirtle.img.png">
-			2)<img src="bulbasaur.img.png">
-			3)<img src="charmander.img.png">
+			1)<img src="squirtle.img.png" onclick=squirtle()>
+			2)<img src="bulbasaur.img.png" onclick=bulbasaur()>
+			3)<img src="charmander.img.png" onclick=charmander()>
 		</div>
+			<div id='squirtletext'>Squirtle is a water-type</div>
+			<div id='bulbtext'>Bulbasaur is a grass-type</div>
+			<div id='chartext'>Charmander is a fire-type</div>
 		<br />
 		<H3 id="out"></H3>
 		<script>
@@ -33,5 +36,6 @@
 		}
 		// document.getElementByID("out").innerHTML(" put your text here");
 		</script>
+		<script src="script.js"></script>
 	</body>
 </html>
